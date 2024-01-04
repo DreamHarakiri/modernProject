@@ -1,0 +1,188 @@
+@import url("./fonts.css");
+@import url("./globals.css");
+
+/* Общие зависимости */
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  height: 3213px;
+}
+
+/* Навигация */
+.nav__section {
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  margin-block-start: 33px;
+}
+
+.nav__logo {
+  max-width: 323px;
+  max-height: 64px;
+  margin-inline-start: 236px;
+}
+
+.navList li {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navList li:not(:first-child) {
+  margin-inline-start: 77px;
+}
+
+.navList {
+  margin-inline-start: 125px;
+  margin-block-start: 8px;
+}
+
+nav button {
+  padding-inline: 18.5px;
+  width: 195px;
+  height: 50px;
+  margin-inline-start: 125px;
+  border-radius: 14px;
+  background: #8243ea;
+
+  box-shadow: 0px 0px 6.182px 0px rgba(255, 255, 255, 0.5) inset,
+    0px 6.182px 18.546px 0px rgba(0, 0, 0, 0.06);
+  text-align: center;
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 19px;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.095px;
+
+  outline: none;
+  border: none;
+}
+
+/* header */
+.header__leftPart {
+  margin-inline-start: 298px;
+}
+
+.header__leftPart h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 842px;
+  margin-block-start: 42px;
+}
+
+.context__leftPart {
+  margin-block-start: 34px;
+  color: #fff;
+  max-width: 924px;
+  height: 203px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tab {
+  width: 221px;
+  height: 47px;
+  border-radius: 36px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 70px;
+}
+
+.tab p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header__BtnPlayStart {
+  display: flex;
+  height: 72px;
+
+  justify-content: center;
+  align-items: center;
+  gap: 61.82px;
+  border-radius: 20px;
+  background: #8243ea;
+
+  box-shadow: 0px 0px 6.182px 0px rgba(255, 255, 255, 0.5) inset,
+    0px 6.182px 18.546px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header__BtnPlayStart p {
+  width: 257px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 98.912px; /* 412.133% */
+  letter-spacing: 0.12px;
+  color: white;
+}
+
+.header__promoContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 18px;
+  align-items: center;
+}
+
+.header__promoContainer button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+
+  color: #fff;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__playContainer {
+  display: flex;
+  gap: 37px;
+  margin-block-start: 40px;
+}
+
+.header__section {
+  display: flex;
+  margin-block-start: 105px;
+}
+
+.header__rightPart {
+  margin-inline-start: 30px;
+}
+/**/
+
+/*main */
