@@ -1,0 +1,12 @@
+:root {
+  --main-color: #8243ea;
+  --accent-color: #fff;
+  --inactive-link: rgba(255, 255, 255, 0.3);
+  --decoration-color: rgba(255, 255, 255, 0.31);
+  --inactive-box: #3a3a3a;
+
+  --system-section: #0f0f0f;
+  --system-li: #4a4a4a;
+
+  --link-color: #357aff;
+}
